@@ -16,6 +16,10 @@
 }
 .sidebarOption > h2 {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 750;
     margin-right: 20px;
+}
+
+.sidebarOption--active {
+    color: var(--twitter-color);
 }
