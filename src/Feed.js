@@ -10,51 +10,8 @@ function Feed() {
            </div> 
             
            {/* TweetBox */}
-
+            <TweetBox />
            {/* Post */}
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           <h5>post</h5>
-           
            {/* Post */}
            {/* Post */}
            {/* Post */} 
