@@ -4,5 +4,10 @@ body {
 }
 
 .app {
+    height: 100vh;
     display: flex;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
 }
