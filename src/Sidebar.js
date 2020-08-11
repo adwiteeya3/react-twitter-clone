@@ -1,11 +1,20 @@
-import React from 'react'
+import React from 'react';
+import './Sidebar.css';
 
 function Sidebar() {
     return (
-        <div>
+        <div className="sidebar">
+            {/* Twitter icon */}
+
+            {/* SidebarOption */}
+            {/* SidebarOption */}
+            {/* SidebarOption */}
+            {/* SidebarOption */}
+
+            {/* Button -> Tweet */}
             
         </div>
-    )
+    );
 }
 
-export default Sidebar
+export default Sidebar;
