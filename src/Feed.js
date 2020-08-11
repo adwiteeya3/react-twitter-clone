@@ -16,7 +16,6 @@ function Feed() {
 
            {/* Post */}
            <Post />
-           <h5>fajksfhjkad</h5>
            {/* Post */}
            {/* Post */}
            {/* Post */} 
