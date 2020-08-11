@@ -18,7 +18,7 @@ function Post({ displayName, username, verified, timestamp, text, image, avatar 
                     <div className='post_headerText'>
                         <h3>
                             Adwiteeya{" "}
-                             <span>
+                             <span className='post_headerSpecial'>
                                  <VerifiedUserIcon className='post_badge' /> @adwiteeya3 
                              </span>
                         </h3>
