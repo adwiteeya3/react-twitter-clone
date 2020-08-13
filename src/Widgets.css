@@ -11,3 +11,20 @@
     margin-top: 10px;
     margin-left: 20px;
 }
+
+.widgets_input > input {
+    border: none;
+    background-color: var(--twitter-background);
+}
+
+.widgets_searchIcon {
+    color: gray;
+}
+
+.widgets_widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
