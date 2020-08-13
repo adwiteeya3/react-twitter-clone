@@ -11,23 +11,23 @@ function Post({ displayName, username, verified, timestamp, text, image, avatar 
     return (
         <div className='post'> 
             <div className='post_avatar'>
-                <Avatar src='https://images.unsplash.com/photo-1596910134699-db9bf7109b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3068&q=80' />
+                <Avatar src={avatar} />
             </div>
             <div className='post_body'>
                 <div className='post_header'>
                     <div className='post_headerText'>
                         <h3>
-                            Adwiteeya{" "}
-                             <span className='post_headerSpecial'>
-                                 <VerifiedUserIcon className='post_badge' /> @adwiteeya3 
-                             </span>
+                            {displayName}{" "}
+                            <span className="post_headerSpecial">
+                            {verified && <VerifiedUserIcon className="post_badge" />} @{username}
+                </span>
                         </h3>
                     </div>
                     <div className='post_headerDescription'>
-                        <p>my first twitter post</p>
+                        <p>{text}</p>
                     </div>
                 </div>
-                <img src='https://media.giphy.com/media/OhFuOJn2rbLsA/giphy.gif' alt='' />
+                <img src={image} alt='' />
                 <div className='post_footer'>
                     <ChatBubbleOutlineIcon fontSize="small" />
                     <RepeatIcon fontSize="small" />
