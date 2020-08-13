@@ -25,17 +25,17 @@ function Feed() {
             <TweetBox />
 
            {/* Post */}
-           {posts.map(post => 
-            
-            )}
-           <Post 
-             displayName="Adwiteeya"
-             username="adwiteeya6"
-             verified= {true}
-             text="Whola!" 
-             avatar= "https://images.unsplash.com/photo-1597011769896-d355e2afcbab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80"
-             image= "https://images.unsplash.com/photo-1596975272437-6b6e80eb2891?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-            />
+           {posts.map(post => (
+               <Post 
+               displayName={post.displayName}
+               username={post.username}
+               verified= {post.verified}
+               text={post.text} 
+               avatar= {post.avatar}
+               image= {post.image}
+              />
+           ))}
+           
            
 
         </div>
