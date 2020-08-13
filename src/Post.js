@@ -1,7 +1,7 @@
 import React from 'react';
 import './Post.css';
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
-import { Avatar, Button } from '@material-ui/core';
+import { Avatar } from '@material-ui/core';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import RepeatIcon from '@material-ui/icons/Repeat';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
